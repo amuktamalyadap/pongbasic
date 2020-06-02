@@ -68,7 +68,7 @@ function draw() {
 
   //make the ball bounce off the user paddle
   if(ball.isTouching(userPaddle)){
-    hitSound.play();
+    piano_E.play();
     ball.x = ball.x - 5;
     ball.velocityX = -ball.velocityX;
   }
